@@ -1,0 +1,93 @@
+/*Fonte da página*/
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100dvh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(../Images/lingerieEMakes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 50px;
+    height: 40px;
+    width: 300px;
+    border: 2px solid #FF0396;
+    border-radius: 10px;
+    box-shadow: -6px 6px 43px 0px rgba(255,3,150,1);
+    background-color: #FEFCFD;
+    color: #1E1123;
+    font-weight: bold;
+    font-family: "Petit Formal Script", cursive;
+    letter-spacing: 2px;
+    transition: .4s;
+    text-align: left;
+    padding: 10px;
+}
+
+.btn-principal:hover {
+    border: 2px solid #693D7A;
+    box-shadow: -6px 6px 43px 0px #693D7A;
+    color:#FF0396;
+}
+
+.seta {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+}
+
+.whatsapp-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-button img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-size: 13px;
+}
